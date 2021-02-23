@@ -32,8 +32,9 @@ module.exports = {
       {
         docs: false,
         blog: {
+          blogTitle: 'Docusaurus blog!',
           path: './blog',
-          routeBasePath: '/', // Set this value to '/'.
+          routeBasePath: '/', // Set this value to '/'
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
