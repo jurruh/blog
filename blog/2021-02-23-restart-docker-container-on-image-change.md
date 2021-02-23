@@ -4,7 +4,7 @@ title: Restart Docker container on image change
 tags: [docker, docker-compose, watchtower]
 ---
 
-This blog consists of a static website served by a Docker container. The content is written in markdown and pushed to a Git repository hosted on [GitHub](https://github.com/jurruh/blog). Every time I push to that repository a Docker image containing the new version is build on [DockerHub](https://hub.docker.com/repository/docker/jurruh/blog/builds).
+This blog is a static website served from Docker container. The content is written in markdown and pushed to a Git repository hosted on [GitHub](https://github.com/jurruh/blog). Every time I push to that repository a Docker image containing the new version is build on [DockerHub](https://hub.docker.com/repository/docker/jurruh/blog/builds).
 
 However, even if the new image is available on DockerHub there is still a container running containing the old version. Normally I would go to the platform where the container is running and perform a manual `docker pull` command and spin up the new container. I hated doing this manual step and automated it:
 
