@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{68:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Restart Docker container on image change","permalink":"/restart-docker-container-on-image-change"},{"title":"Welcome","permalink":"/welcome"}]}')}}]);

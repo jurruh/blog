@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.jurrevriesen.nl/</id>
+    <title>Jurre's Blog Blog</title>
+    <updated>2021-02-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.jurrevriesen.nl/"/>
+    <subtitle>Jurre's Blog Blog</subtitle>
+    <icon>https://blog.jurrevriesen.nl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Restart Docker container on image change]]></title>
+        <id>restart-docker-container-on-image-change</id>
+        <link href="https://blog.jurrevriesen.nl/restart-docker-container-on-image-change"/>
+        <updated>2021-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This blog is a static website served from a Docker container. The content is written in markdown and pushed to a Git repository hosted on GitHub. Every time I push to that repository a Docker image containing the new version is build on DockerHub.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://blog.jurrevriesen.nl/welcome"/>
+        <updated>2021-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi I'm Jurre. Welcome to my blog. Here I will post some adventures in my Dev(Ops) life that I think are worth sharing.]]></summary>
+    </entry>
+</feed>
