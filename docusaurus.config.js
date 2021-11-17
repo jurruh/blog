@@ -21,9 +21,20 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-       
+        {
+          title: "Connect",
+          items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/jurre-vriesen-72a520116/',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/jurruh',
+            }
+          ],
+        },
       ],
-      copyright: `info@jurrevriesen.nl`,
     },
   },
   presets: [
