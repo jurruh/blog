@@ -13,8 +13,8 @@ function Hello() {
                     justifyContent: 'center',
                     alignItems: 'center',
                     flexDirection: 'column',
-                    height: '50vh',
                     fontSize: '20px',
+                    padding: '1em'
                 }}>
                 <div>
                     <img src="https://github.com/jurruh.png" style={{ maxWidth: 100, marginBottom: 10, borderRadius: "100%" }}></img>
