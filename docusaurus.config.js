@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Jurre\'s Blog',
+  title: 'Jurre Vriesen',
   tagline: 'DevOps',
-  url: 'https://blog.jurrevriesen.nl',
+  url: 'https://jurrevriesen.nl',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Blog' ,
+      title: 'Jurre Vriesen' ,
       logo: {
         alt: 'Jurre Vriesen',
         src: 'https://jurrevriesen.nl/img/logo.svg',
@@ -23,7 +23,7 @@ module.exports = {
       links: [
        
       ],
-      copyright: `Built with Docusaurus.`,
+      copyright: `info@jurrevriesen.nl`,
     },
   },
   presets: [
