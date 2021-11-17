@@ -1,7 +1,7 @@
 ---
 slug: ansible-boilerplate-for-webapps
 title: Ansible boilerplate for webapps with Docker, Traefik and Let's Encrypt
-tags: [docker, docker-compose, watchtower]
+tags: [docker, docker-compose, ansible, traefik, letsencrypt]
 ---
 
 I created an Ansible boilerplate for setting up a webserver that can run any webapp that runs in a Docker container. You can use this boilerplate to setup a secure webserver on a freshly installed Debian based linux server (something like an Amazon EC2 instance or VPS). This boilerplate uses Traefik, Let's Encrypt and Docker Compose. 
