@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{54:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Ansible boilerplate for webapps with Docker, Traefik and letsencrypt","permalink":"/ansible-boilerplate-for-webapps"},{"title":"Restart Docker container on image change","permalink":"/restart-docker-container-on-image-change"}]}')}}]);

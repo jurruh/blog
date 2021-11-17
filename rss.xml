@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Ansible boilerplate for webapps with Docker, Traefik and letsencrypt]]></title>
+            <title><![CDATA[Ansible boilerplate for webapps with Docker, Traefik and Let's Encrypt]]></title>
             <link>https://jurrevriesen.nl/ansible-boilerplate-for-webapps</link>
             <guid>ansible-boilerplate-for-webapps</guid>
             <pubDate>Wed, 17 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[I created an Ansible boilerplate for setting up a webserver that can run any webapp that runs in a Docker container. You can use this boilerplate to setup a secure webserver on a freshly installed Debian based linux server (something like an Amazon EC2 instance or VPS). This boilerplate uses Traefik, LetsEncrypt and Docker Compose.]]></description>
+            <description><![CDATA[I created an Ansible boilerplate for setting up a webserver that can run any webapp that runs in a Docker container. You can use this boilerplate to setup a secure webserver on a freshly installed Debian based linux server (something like an Amazon EC2 instance or VPS). This boilerplate uses Traefik, Let's Encrypt and Docker Compose.]]></description>
         </item>
         <item>
             <title><![CDATA[Restart Docker container on image change]]></title>
