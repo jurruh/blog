@@ -8,7 +8,7 @@ This blog is a static website served from a Docker container. The content is wri
 
 While the new image is available on DockerHub there is still a container running containing the old version. Normally I would go to the server where the container is running and perform a manual `docker pull` command and spin up a new container. I hated doing this manual step and automated it:
 
-:point_right: The people from [containrrr.dev](https://containrrr.dev/) made a simple to use piece of software called watchtower. This detects if the image of a container is changes and if so the image is pulled and the container is restarted. Watchtower can be started as an individual Docker container with the following command:
+:point_right: The people from [containrrr.dev](https://containrrr.dev/) made a simple to use piece of software called watchtower. This detects when the image of a container changes. When that happens the changed image is pulled and the container will be restarted. Watchtower can be started as an individual Docker container with the following command:
 ```shell
 docker run -d \
   --name watchtower \
