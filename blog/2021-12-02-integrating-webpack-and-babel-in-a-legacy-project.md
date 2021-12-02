@@ -14,13 +14,13 @@ Let's say you have an old legacy application written in PHP or Perl that is used
 *The exapmles in this post use NPM, webpack and Babel. The alternatives are all sharing the same concepts*
 
 ## Setup NPM, webpack and Babel
-Node and NPM installed need to be installed and accessible from the commandline. Then run `npm init` at your project root. This will create a `package.json` file.
+Node and NPM need to be installed and accessible from the commandline. Then run `npm init` at your project root. This will create a `package.json` file.
 
 After that install the webpack and Babel dependencies:
 ```bash
 npm install -D babel-loader @babel/core @babel/preset-env webpack webpack-cli
 ```
-This will add dependecies to the `package.json` file. Now add a webpack.config.js file to the root of the project:
+This will add dependecies to the `package.json` file. Now add a `webpack.config.js` file to the root of the project:
 ```js
 const path = require('path');
 
