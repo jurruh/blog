@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{70:function(o){o.exports=JSON.parse('{"allTagsPath":"/tags","slug":"docker-compose","name":"docker-compose","count":2,"permalink":"/tags/docker-compose"}')}}]);

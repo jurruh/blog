@@ -4,9 +4,16 @@
         <title>Jurre Vriesen Blog</title>
         <link>https://jurrevriesen.nl/</link>
         <description>Jurre Vriesen Blog</description>
-        <lastBuildDate>Wed, 17 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Integrating Webpack and Babel in a legacy project]]></title>
+            <link>https://jurrevriesen.nl/integrating-webpack-and-babel-in-a-legacy-project</link>
+            <guid>integrating-webpack-and-babel-in-a-legacy-project</guid>
+            <pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[What do you need]]></description>
+        </item>
         <item>
             <title><![CDATA[Ansible boilerplate for webapps with Docker, Traefik and Let's Encrypt]]></title>
             <link>https://jurrevriesen.nl/ansible-boilerplate-for-webapps</link>
