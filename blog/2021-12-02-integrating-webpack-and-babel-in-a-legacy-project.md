@@ -7,11 +7,11 @@ Let's say you have an old legacy application written in PHP or Perl that is used
 
 
 ## What do you need
-* **Package manger** - Yarn or NPM. This let's you install and manage third party packages.
+* **Package manager** - Yarn or NPM. This let's you install and manage third party packages.
 * **Module bundler** - For example webpack or esbuild. Combines all the javascript from your project and the third party packages in optimized files.
 * **Transpiler** - For example Babel. Compiles new JavaScript code to old JavaScript code so older browsers understand it.
 
-*The exapmles in this post use NPM, webpack and Babel. The alternatives are all sharing the same concepts*
+*The examples in this post use NPM, webpack and Babel. The alternatives are all sharing the same concepts*
 
 ## Setup NPM, webpack and Babel
 Node and NPM need to be installed and accessible from the commandline. Then run `npm init` at your project root. This will create a `package.json` file.
@@ -20,7 +20,7 @@ After that install the webpack and Babel dependencies:
 ```bash
 npm install -D babel-loader @babel/core @babel/preset-env webpack webpack-cli
 ```
-This will add dependecies to the `package.json` file. Now add a `webpack.config.js` file to the root of the project:
+This will add dependencies to the `package.json` file. Now add a `webpack.config.js` file to the root of the project:
 ```js
 const path = require('path');
 
@@ -51,7 +51,7 @@ The entry file `./src/index.js` will be the starting point of the Javascript and
 The bundled and transpiled output file will be stored in `<project-root>/dist/bundle.js`. This can also be a location that fits the current project.
 
 ## Writing code that uses a NPM package
-The [pluralize](https://www.npmjs.com/package/pluralize) NPM package can be used to pluralize words. Let's create an high-end application where a user can enter a random english word and see the pluralized version:
+The [pluralize](https://www.npmjs.com/package/pluralize) NPM package can be used to pluralize words. Let's create a high-end application where a user can enter a random english word and see the pluralized version:
 
 Install the library:
 ```bash
