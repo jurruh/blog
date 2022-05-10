@@ -8,9 +8,9 @@
     <subtitle>Jurre Vriesen Blog</subtitle>
     <icon>https://jurrevriesen.nl/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Wich frontend framework should you use?]]></title>
-        <id>wich-frontend-framework-should-you-use</id>
-        <link href="https://jurrevriesen.nl/wich-frontend-framework-should-you-use"/>
+        <title type="html"><![CDATA[Which frontend framework should you use?]]></title>
+        <id>which-frontend-framework-should-you-use</id>
+        <link href="https://jurrevriesen.nl/which-frontend-framework-should-you-use"/>
         <updated>2022-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TL;DR Just pick a popular one and use it properly.]]></summary>
     </entry>

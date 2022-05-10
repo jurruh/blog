@@ -8,9 +8,9 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Wich frontend framework should you use?]]></title>
-            <link>https://jurrevriesen.nl/wich-frontend-framework-should-you-use</link>
-            <guid>wich-frontend-framework-should-you-use</guid>
+            <title><![CDATA[Which frontend framework should you use?]]></title>
+            <link>https://jurrevriesen.nl/which-frontend-framework-should-you-use</link>
+            <guid>which-frontend-framework-should-you-use</guid>
             <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[TL;DR Just pick a popular one and use it properly.]]></description>
         </item>
