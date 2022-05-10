@@ -1,6 +1,6 @@
 ---
-slug: wich-frontend-framework-should-you-use
-title: Wich frontend framework should you use?
+slug: which-frontend-framework-should-you-use
+title: Which frontend framework should you use?
 tags: [vue, angular, react, frontend-frameworks]
 ---
 
