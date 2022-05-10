@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jurrevriesen.nl/</id>
     <title>Jurre Vriesen Blog</title>
-    <updated>2021-12-02T00:00:00.000Z</updated>
+    <updated>2022-05-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jurrevriesen.nl/"/>
     <subtitle>Jurre Vriesen Blog</subtitle>
     <icon>https://jurrevriesen.nl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wich frontend framework should you use?]]></title>
+        <id>wich-frontend-framework-should-you-use</id>
+        <link href="https://jurrevriesen.nl/wich-frontend-framework-should-you-use"/>
+        <updated>2022-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR Just pick a popular one and use it properly.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Integrating Webpack and Babel in a legacy project]]></title>
         <id>integrating-webpack-and-babel-in-a-legacy-project</id>

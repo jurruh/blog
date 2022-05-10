@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{88:function(n){n.exports=JSON.parse('{"allTagsPath":"/tags","slug":"frontend-frameworks","name":"frontend-frameworks","count":1,"permalink":"/tags/frontend-frameworks"}')}}]);

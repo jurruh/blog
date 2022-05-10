@@ -4,9 +4,16 @@
         <title>Jurre Vriesen Blog</title>
         <link>https://jurrevriesen.nl/</link>
         <description>Jurre Vriesen Blog</description>
-        <lastBuildDate>Thu, 02 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Wich frontend framework should you use?]]></title>
+            <link>https://jurrevriesen.nl/wich-frontend-framework-should-you-use</link>
+            <guid>wich-frontend-framework-should-you-use</guid>
+            <pubDate>Tue, 10 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[TL;DR Just pick a popular one and use it properly.]]></description>
+        </item>
         <item>
             <title><![CDATA[Integrating Webpack and Babel in a legacy project]]></title>
             <link>https://jurrevriesen.nl/integrating-webpack-and-babel-in-a-legacy-project</link>

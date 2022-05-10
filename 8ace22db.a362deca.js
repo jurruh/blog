@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{81:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"ansible","name":"ansible","count":1,"permalink":"/tags/ansible"}')}}]);
