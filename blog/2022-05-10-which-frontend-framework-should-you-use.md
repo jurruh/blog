@@ -15,7 +15,7 @@ In the past few years I gained expierence with Angular, React and Vue. In my opi
 
 As long as you pick a popular framework I don't think you can make a bad choice. Yes all frameworks have their strengths and weaknesses (described in the eairlier mentioned articles). If something is used by millions of people it can't be completely bad right?
 
-What I think matters more is that you should use the framework like it is meant to be. Your project is probably not that special that it needs to do things completely different than any other web app. Please keep with the standards so its easier:
+What I think matters more is that you should use the framework like it is meant to be. Your project is probably not that special that it needs to do things completely different than any other web app. Please keep with the standards so it's easier:
 - To welcome new teammembers
 - Updating to future versions
 - Getting third party components to work
