@@ -6,19 +6,19 @@ readTime: "3 min read"
 topics: [webpack, babel, legacy, php]
 ---
 
-Let's say you have an old legacy application written in PHP or Perl that is used a lot over time. And while developing you come across a new fancy javascript library with instructions like `npm i super-dope-library` and a code example like `import {coolStuff} from 'super-dope-library'`. How is that going to work?
+Let's say you have an old legacy application written in PHP or Perl that is used a lot over time. And while developing you come across a new fancy JavaScript library with instructions like `npm i super-dope-library` and a code example like `import {coolStuff} from 'super-dope-library'`. How is that going to work?
 
 ## What do you need
 
-- **Package manager** — Yarn or NPM. This lets you install and manage third party packages.
-- **Module bundler** — For example webpack or esbuild. Combines all the javascript from your project and the third party packages in optimized files.
+- **Package manager** — Yarn or NPM. This lets you install and manage third-party packages.
+- **Module bundler** — For example webpack or esbuild. Combines all the JavaScript from your project and the third-party packages in optimized files.
 - **Transpiler** — For example Babel. Compiles new JavaScript code to old JavaScript code so older browsers understand it.
 
 *The examples in this post use NPM, webpack and Babel. The alternatives are all sharing the same concepts.*
 
 ## Setup NPM, webpack and Babel
 
-Node and NPM need to be installed and accessible from the commandline. Then run `npm init` at your project root. This will create a `package.json` file.
+Node and NPM need to be installed and accessible from the command line. Then run `npm init` at your project root. This will create a `package.json` file.
 
 After that install the webpack and Babel dependencies:
 
@@ -54,13 +54,13 @@ module.exports = {
 };
 ```
 
-The entry file `./src/index.js` will be the starting point of the Javascript and can be changed to a location that fits the current project.
+The entry file `./src/index.js` will be the starting point of the JavaScript and can be changed to a location that fits the current project.
 
 The bundled and transpiled output file will be stored in `<project-root>/dist/bundle.js`. This can also be a location that fits the current project.
 
 ## Writing code that uses a NPM package
 
-The [pluralize](https://www.npmjs.com/package/pluralize) NPM package can be used to pluralize words. Let's create a high-end application where a user can enter a random english word and see the pluralized version:
+The [pluralize](https://www.npmjs.com/package/pluralize) NPM package can be used to pluralize words. Let's create a high-end application where a user can enter a random English word and see the pluralized version:
 
 Install the library:
 
@@ -92,12 +92,12 @@ After the `bundle.js` file is created it is fairly simple to integrate it. Just 
 <script src="/dist/bundle.js" />
 ```
 
-## Github Example
+## GitHub Example
 
 The steps above are implemented in an example PHP project: <https://github.com/jurruh/legacy-php-webpack-babel-example>
 
 ## Notes
 
-- It is not necessary to ship the node_modules folder and the untranspiled Javascript code to production. These can be removed in the build process to gain smaller packages.
+- It is not necessary to ship the node_modules folder and the untranspiled JavaScript code to production. These can be removed in the build process to gain smaller packages.
 - Add the dist folder to .gitignore. The code can be generated and therefore it should not be in version control.
 - You should explore the webpack CLI to see what it is capable of: <https://www.npmjs.com/package/webpack-cli>
