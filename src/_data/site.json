@@ -1,6 +1,9 @@
 {
   "title": "Jurre Vriesen",
-  "tagline": "I am Jurre, a developer with a passion for cool stuff.",
+  "role": "Software and DevOps engineer",
+  "tagline": "I am Jurre, an engineer with a passion for cool stuff.",
+  "company": "Booking Experts",
+  "location": "Winterswijk",
   "avatar": "https://github.com/jurruh.png",
   "github": "https://github.com/jurruh"
 }
