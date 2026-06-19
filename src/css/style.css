@@ -266,6 +266,7 @@ blockquote {
 .site-footer a { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
 .site-footer a:hover { color: var(--accent); }
 .site-footer .copy { color: var(--text-muted); font-size: 0.85rem; }
+.site-footer .disclaimer { font-style: italic; opacity: 0.8; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }
