@@ -1,0 +1,24 @@
+---
+layout: base.njk
+---
+{% set newer = collections.posts | getNextCollectionItem %}
+{% set older = collections.posts | getPreviousCollectionItem %}
+<a class="back-link" href="/">← All posts</a>
+<article>
+  <h1>{{ title }}</h1>
+  <div class="post-meta">{{ date | readableDate }} · {{ readTime }}</div>
+
+  {{ content | safe }}
+
+  {% if topics %}
+  <div class="tags">
+    <span class="label">Tags:</span>
+    {% for topic in topics %}<span class="tag">{{ topic }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  <nav class="post-nav">
+    {% if newer %}<a class="prev" href="{{ newer.url }}">← Newer post: {{ newer.data.title }}</a>{% endif %}
+    {% if older %}<a class="next" href="{{ older.url }}">Older post: {{ older.data.title }} →</a>{% endif %}
+  </nav>
+</article>

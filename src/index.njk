@@ -1,0 +1,22 @@
+---
+layout: base.njk
+title: Hello
+description: I am Jurre, a developer with a passion for cool stuff.
+---
+<section class="hero">
+  <img src="{{ site.avatar }}" alt="{{ site.title }}">
+  <h1>Hello</h1>
+  <p>{{ site.tagline }}</p>
+</section>
+
+<h2 class="section-title">Recent posts</h2>
+<ul class="post-list">
+  {% for post in collections.posts | reverse %}
+  <li>
+    <a href="{{ post.url }}">
+      <span class="title">{{ post.data.title }}</span>
+      <span class="date">{{ post.date | readableDate }} · {{ post.data.readTime }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

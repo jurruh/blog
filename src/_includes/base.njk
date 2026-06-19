@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta property="og:title" content="{{ title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="{{ site.avatar }}">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/theme-init.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">
+        <img src="{{ site.avatar }}" alt="{{ site.title }}">
+        <span>{{ site.title }}</span>
+      </a>
+      <button class="theme-toggle" aria-label="Toggle theme"></button>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      {{ content | safe }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="copy">© {{ site.title }}</span>
+      <div class="connect">
+        <a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.theme-toggle');
+      function updateIcon() {
+        btn.textContent =
+          document.documentElement.getAttribute('data-theme') === 'dark' ? '☀' : '☾';
+      }
+      if (btn) {
+        updateIcon();
+        btn.addEventListener('click', function () {
+          var d = document.documentElement;
+          var t = d.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          d.setAttribute('data-theme', t);
+          localStorage.setItem('theme', t);
+          updateIcon();
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
